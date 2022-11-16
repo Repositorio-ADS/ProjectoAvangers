@@ -19,7 +19,7 @@ public class avengers {
        System.out.println("                  (1) Capitão America                   ");
        System.out.println("                  (2) Thor                              ");
        System.out.println("                  (3) Homen de Ferro                    ");
-       System.out.println("                  (4) Hulk                              ");
+       System.out.println("                                                	 ");
        System.out.println("                                                        ");
        System.out.println("                                                        ");
        System.out.println("                Aguardando Escolha...                 ");
