@@ -1,3 +1,5 @@
+package com.mycompany.yes;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -667,7 +669,7 @@ public class avengers {
 
 								do {
 									embaralhar(alternativa4);
-									System.out.println(	"Como Buck Burnes morreu?");
+									System.out.println("Como Buck Burnes morreu?");
 									System.out.println("\n");
 
 									System.out.println("a) " + alternativa4[0]);
@@ -684,7 +686,8 @@ public class avengers {
 									switch (resposta) {
 									case "a":
 									case "A":
-										if (alternativa4[0] == ("Caiu de um trem em movimento")) {
+										if (alternativa4[0] == ("Arremessado de um trem")) {
+                                                                                        System.out.println(resposta);
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -696,7 +699,7 @@ public class avengers {
 										} else {
 											System.out.println("\n");
 											System.out.println("Resposta Incorreta.");
-											limpartela();
+											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -707,7 +710,8 @@ public class avengers {
 										break;
 									case "b":
 									case "B":
-										if (alternativa4[1] == ("Caiu de um trem em movimento")) {
+										if (alternativa4[1] == ("Arremessado de um trem")) {
+                                                                                        System.out.println(resposta);
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -719,7 +723,7 @@ public class avengers {
 										} else {
 											System.out.println("\n");
 											System.out.println("Resposta Incorreta.");
-											limpartela();
+											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -730,7 +734,8 @@ public class avengers {
 										break;
 									case "c":
 									case "C":
-										if (alternativa4[2] == ("Caiu de um trem em movimento")) {
+										if (alternativa4[2] == ("Arremessado de um trem")) {
+                                                                                        System.out.println(resposta);
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -742,7 +747,7 @@ public class avengers {
 										} else {
 											System.out.println("\n");
 											System.out.println("Resposta Incorreta.");
-											limpartela();
+											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -753,7 +758,8 @@ public class avengers {
 										break;
 									case "d":
 									case "D":
-										if (alternativa4[3] == ("Caiu de um trem em movimento")) {
+										if (alternativa4[3] == ("Arremessado de um trem")) {
+                                                                                        System.out.println(resposta);
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -765,7 +771,7 @@ public class avengers {
 										} else {
 											System.out.println("\n");
 											System.out.println("Resposta Incorreta.");
-											limpartela();
+											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -776,7 +782,8 @@ public class avengers {
 										break;
 									case "e":
 									case "E":
-										if (alternativa4[4] == ("Caiu de um trem em movimento")) {
+										if (alternativa4[4] == ("Arremessado de um trem")) {
+                                                                                        System.out.println(resposta);
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -787,7 +794,7 @@ public class avengers {
 										} else {
 											System.out.println("\n");
 											System.out.println("Resposta Incorreta.");
-											limpartela();
+											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -799,7 +806,7 @@ public class avengers {
 									default:
 										System.out.println("\n");
 										System.out.println("Escolha Inválida.");
-										limpartela();
+										
 										System.out.println("\n");
 									}
 									contador++;
@@ -812,7 +819,7 @@ public class avengers {
 							}
 							System.out.println("Parabéns você passou do quarto nível.");
 							System.out.println("Digite 1 para continuar.");
-							limpartela();
+							
 							navegacao = imput.nextInt();
 
 							//05 Questão facil
@@ -825,10 +832,10 @@ public class avengers {
 								alternativa5[1] = "Radiação";
 								alternativa5[2] = "Camará de Gás";
 								alternativa5[3] = "Baleados na em combate";
-								alternativa5[4] = "Gás Mostarda e Pneumonia "; // resposta correta
+								alternativa5[4] = "Gás Mostarda e Pneumonia"; // resposta correta
 
 
-								limpartela();	
+									
 								System.out.println(" _____________________________________________________________________________________________________________");
 								System.out.println("        																        "); 
 								System.out.println("           												   				    ");
@@ -861,7 +868,7 @@ public class avengers {
 									switch (resposta) {
 									case "a":
 									case "A":
-										if (alternativa5[0] == ("Gás Mostarda e Pneumonia  ")) {
+										if (alternativa5[0] == ("Gás Mostarda e Pneumonia")) {
 											System.out.println("Resposta Correta! ");
 											System.out.println("\n");
 											acertou = true;
@@ -884,7 +891,7 @@ public class avengers {
 										break;
 									case "b":
 									case "B":
-										if (alternativa5[1] == ("Gás Mostarda e Pneumonia ")) {
+										if (alternativa5[1] == ("Gás Mostarda e Pneumonia")) {
 											System.out.println("Resposta Correta!");
 											System.out.println("\n");
 											acertou = true;
@@ -895,8 +902,7 @@ public class avengers {
 											System.out.println("\r\n");
 										} else {
 											System.out.println("\n");
-											System.out.println("Resposta Incorreta.");
-											limpartela();
+											System.out.println("Resposta Incorreta.");											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -907,7 +913,7 @@ public class avengers {
 										break;
 									case "c":
 									case "C":
-										if (alternativa5[2] == ("Nick Fury")) {
+										if (alternativa5[2] == ("Gás Mostarda e Pneumonia")) {
 											System.out.println("Resposta Correta!");
 											System.out.println("\n");
 											acertou = true;
@@ -918,8 +924,7 @@ public class avengers {
 											System.out.println("\r\n");
 										} else {
 											System.out.println("\n");
-											System.out.println("Resposta Incorreta.");
-											limpartela();
+											System.out.println("Resposta Incorreta.");											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -930,7 +935,7 @@ public class avengers {
 										break;
 									case "d":
 									case "D":
-										if (alternativa5[3] == ("Gás Mostarda e Pneumonia ")) {
+										if (alternativa5[3] == ("Gás Mostarda e Pneumonia")) {
 											System.out.println("Resposta Correta!");
 											System.out.println("\n");
 											acertou = true;
@@ -941,8 +946,7 @@ public class avengers {
 											System.out.println("\r\n");
 										} else {
 											System.out.println("\n");
-											System.out.println("Resposta Incorreta.");
-											limpartela();
+											System.out.println("Resposta Incorreta.");											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -953,7 +957,7 @@ public class avengers {
 										break;
 									case "e":
 									case "E":
-										if (alternativa5[4] == ("Gás Mostarda e Pneumonia ")) {
+										if (alternativa5[4] == ("Gás Mostarda e Pneumonia")) {
 											System.out.println("Resposta Correta!");
 											System.out.println("\n");
 											acertou = true;
@@ -963,8 +967,7 @@ public class avengers {
 											System.out.println("\r\n");
 										} else {
 											System.out.println("\n");
-											System.out.println("Resposta Incorreta.");
-											limpartela();
+											System.out.println("Resposta Incorreta.");											
 											System.out.println("\n");
 											total = ponto - pontoP;
 											ponto = total;
@@ -975,8 +978,7 @@ public class avengers {
 										break;
 									default:
 										System.out.println("\n");
-										System.out.println("Escolha Inválida.");
-										limpartela();
+										System.out.println("Escolha Inválida.");										
 										System.out.println("\n");
 									}
 									contador++;
@@ -988,7 +990,7 @@ public class avengers {
 								}
 								System.out.println("Parabéns você conseguiu ajudar o Capitão America a entrar no projeto Vingadores");
 								System.out.println("Digite 0 para voltar ao menu principal.");
-								limpartela();
+								
 								navegacao = imput.nextInt();
 							}
 
@@ -1061,7 +1063,7 @@ public class avengers {
 										total = ponto - pontoP;
 										ponto = total;
 										System.out.printf("|Recruta => %s |Pontos => %d |", usuario, total);
-										System.out.println("\r\n");
+										
 									}
 									break;
 								case "b":
@@ -1208,7 +1210,7 @@ public class avengers {
 									switch (resposta) {
 									case "a":
 									case "A":
-										if (alternativa2[0] == ("Nidavelhir")) {
+										if (alternativa2[0] == ("Nidavellir")) {
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -1228,7 +1230,7 @@ public class avengers {
 										break;
 									case "b":
 									case "B":
-										if (alternativa2[1] == ("Nidavelhir")) {
+										if (alternativa2[1] == ("Nidavellir")) {
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -1248,7 +1250,7 @@ public class avengers {
 										break;
 									case "c":
 									case "C":
-										if (alternativa2[2] == ("Nidavelhir")) {
+										if (alternativa2[2] == ("Nidavellir")) {
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -1268,7 +1270,7 @@ public class avengers {
 										break;
 									case "d":
 									case "D":
-										if (alternativa2[3] == ("Nidavelhir")) {
+										if (alternativa2[3] == ("Nidavellir")) {
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -1288,7 +1290,7 @@ public class avengers {
 										break;
 									case "e":
 									case "E":
-										if (alternativa2[4] == ("Nidavelhir")) {
+										if (alternativa2[4] == ("Nidavellir")) {
 											System.out.println("Resposta Correta.");
 											System.out.println("\n");
 											acertou = true;
@@ -1806,7 +1808,7 @@ public class avengers {
 
 								}
 							}
-							System.out.println("Parabéns você ajudou o Homem de Ferro a ser recrutado para os Vingadores!!!");
+							System.out.println("Parabéns você ajudou o Thor2 a ser recrutado para os Vingadores!!!");
 							System.out.println("Digite 0 para voltar ao menu principal.");
 							navegacao = imput.nextInt();
 						}
